@@ -1,16 +1,6 @@
-# PokemonGym   
-<div align="center">
-  <a href="https://discord.gg/mZ9Rc8q8W3" target="_blank">
-    <img src="https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join our Discord">
-  </a>
-  <p>
-    A server for evaluating AI agents on Pokemon Red gameplay.
-  </p>
-  
-</div>
+# Pokemon Gym JS
 
-
-
+> this is a fork from https://github.com/benchflow-ai/pokemon-gym but I want experiment and migrate some parts to JS to experiment and test it with Gemini and JS :) this is the first part and play for fun.
 
 ![Group 1 (1)](./results/comparison_plot.png)
 
