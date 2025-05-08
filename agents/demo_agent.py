@@ -403,7 +403,7 @@ class AIServerAgent:
                 
                 # Create response object similar to OpenAI for compatibility
                 text_response = response.text
-                logger.info(f"Question: [{self.provider}]")
+                logger.info(f"Question: [{gemini_messages[-1]["parts"] if gemini_messages else "Hello"}]")
                 logger.info(f"Answer: {response.text}")
                 
                 # Create a custom response object with structure similar to OpenAI for compatibility
