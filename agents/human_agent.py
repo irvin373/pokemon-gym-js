@@ -99,7 +99,6 @@ class HumanAgent:
             if session_id:
                 init_params["session_id"] = session_id
                 logger.info(f"Will continue existing session: {session_id}")
-            
             response = self.session.post(
                 f"{self.server_url}/initialize",
                 headers={"Content-Type": "application/json"},
@@ -152,7 +151,7 @@ class HumanAgent:
         try:
             # Prepare request data
             request_data = {"action_type": action_type, **kwargs}
-            
+            logger.info(request_data)
             # Send request
             response = self.session.post(
                 f"{self.server_url}/action",
